@@ -4,6 +4,6 @@
 
 # tiny-stack-vm-01
 
-A tiny stack virtual machine for make.fun's "Build a tiny stack virtual machine, 22 November 2026" bounty: one Node program that runs the kit's 32-bit stack ISA (256-value stack, branches, calls, 256 words of memory, ten traps) and answers all 40 programs of a set with exactly the bytes each writes and the exit code it ends with.
+Tiny stack VM: 32-bit ints, 256-value stack, calls, 256 words of memory, ten traps. Answers 40 programs.
 
-Run it on the practice set: `MAKEFUN_INPUT_DIR=practice/input MAKEFUN_OUTPUT_DIR=out node main.ts`
+Run `node main.ts`.
